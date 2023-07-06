@@ -3,24 +3,14 @@
   height: 2rem;
   flex-flow: column nowrap;
   z-index: 10;
-  display: none;
+  /* display: none; */
 }
 
 .Hamburger .burger {
-  width: 2rem;
+  width: 3rem;
+  margin: 0.25rem;
   height: 0.25rem;
   border-radius: 10px;
   transform-origin: 1px;
   transition: all 0.3s linear;
-}
-
-@media (max-width: 767px) {
-  .Hamburger {
-    display: inline;
-    z-index: 10;
-  }
-
-  .Hamburger .burger {
-    margin-top: 0.5rem;
-  }
 }

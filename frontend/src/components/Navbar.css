@@ -1,11 +1,27 @@
-.nav-list {
-  display: none;
+/* .navbar {
+  display: block;
+  padding: 0.2rem;
+}
+*/
+ul {
+  margin-right: 0;
 }
 
-.nav-list.show {
-  display: inline;
+.nav-logo {
+  width: 80px;
+  position: relative;
+  top: 15px;
+  left: -300px;
 }
 
-.nav-list.hide {
-  display: none;
+@media (max-width: 870px) {
+  .nav-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: block;
+  }
 }
